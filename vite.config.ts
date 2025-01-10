@@ -9,7 +9,14 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  build: {
+    outDir: 'dist'
+  },server: {
+    port: 3000
+  },
+  
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: "/Event_Calendar" ,
 });

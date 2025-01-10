@@ -1,13 +1,15 @@
 {
   "name": "vite-react-typescript-starter",
-  "private": true,
+  "homepage": "https://rishabhdimri.github.io/Event_Calendar/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -44,6 +46,7 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
+    "gh-pages": "^6.3.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
     "next-themes": "^0.3.0",
