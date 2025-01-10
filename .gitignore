@@ -1,46 +1,24 @@
-# Node modules
-node_modules/
-
-# Build output
-dist/
+# Logs
+logs
 *.log
-
-# Dependency directories
-pnpm-lock.yaml
-yarn.lock
-package-lock.json
-
-# Editor files
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
-.env
-.env.*.local
-
-# Local debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Optional lock files
-.lock-wscript
-.pnpm-debug.log*
+node_modules
+dist
+dist-ssr
+*.local
 
-# Output from running the project
-coverage/
-*.tsbuildinfo
-
-# Vite
-.vite/
-vite.config.local.*
-
-# Misc
-*.swp
-*.swo
-*.bak
-*.tmp
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
